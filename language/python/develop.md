@@ -170,7 +170,7 @@ $ docker run \
 Let’s test that our application is connected to the database and is able to add a note.
 
 ```shell
-$ curl http://localhost:5000/initdb
+$ curl http://localhost:5000/db
 $ curl --request POST \
   --url http://localhost:5000/widgets \
   --header 'Content-Type: application/x-www-form-urlencoded' \
